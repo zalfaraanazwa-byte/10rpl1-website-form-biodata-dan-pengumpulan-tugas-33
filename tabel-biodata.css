@@ -1,0 +1,201 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    .container {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    th, td {
+      border: 1px solid #b0c4de;
+      padding: 10px;
+      text-align: left;
+      font-size: 14px;
+    }
+    th {
+      background-color: #3b82f6;
+      color: white;
+    }
+    td {
+      background-color: #e0f2fe;
+    }
+    /* Style Kotak Merah (Merged Cell) */
+    .merged-red {
+      border: 2px solid red !important;
+      color: darkgreen;
+      font-weight: bold;
+      text-align: center;
+    }
+    .merged-red-sub {
+      border: 2px solid red !important;
+      font-weight: bold;
+      color: darkgreen;
+    }
+    /* Style Kotak Hijau (Split Cell) */
+    .split-green-container {
+      border: 2px dashed green;
+      padding: 5px;
+      background-color: #f0fdf4;
+    }
+    .split-title {
+      font-size: 11px;
+      font-weight: bold;
+      color: green;
+      margin-bottom: 5px;
+    }
+    .inner-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .inner-table td {
+      border: 1px solid green;
+      background-color: #ffffff;
+      padding: 5px;
+      font-size: 13px;
+    }
+    .footer-text {
+      text-align: center;
+      font-size: 13px;
+      margin-top: 15px;
+      color: #333;
+    }
+  
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    .container {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 700px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    th, td {
+      border: 1px solid #b0c4de;
+      padding: 10px;
+      text-align: left;
+      font-size: 14px;
+    }
+    th {
+      background-color: #2563eb;
+      color: white;
+    }
+    td {
+      background-color: #e0f2fe;
+    }
+    .field-col {
+      font-weight: bold;
+      width: 35%;
+    }
+    .status-row {
+      text-align: center;
+      font-weight: bold;
+      font-size: 13px;
+      background-color: #dbeafe;
+    }
+    .footer-link {
+      text-align: center;
+      margin-top: 20px;
+      font-weight: bold;
+      color: #1d4ed8;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    .container {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    th, td {
+      border: 1px solid #b0c4de;
+      padding: 10px;
+      text-align: left;
+      font-size: 14px;
+    }
+    th {
+      background-color: #2563eb;
+      color: white;
+    }
+    td {
+      background-color: #e0f2fe;
+    }
+    /* Style Kotak Merah */
+    .merged-red {
+      border: 2px solid red !important;
+      font-weight: bold;
+      text-align: center;
+      vertical-align: middle;
+    }
+    .merged-red small {
+      color: red;
+      display: block;
+      margin-top: 4px;
+    }
+    /* Style Kotak Hijau */
+    .split-green-container {
+      border: 2px dashed green;
+      padding: 5px;
+      background-color: #f0fdf4;
+    }
+    .split-title {
+      font-size: 11px;
+      font-weight: bold;
+      color: green;
+      margin-bottom: 5px;
+    }
+    .inner-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .inner-table td {
+      border: 1px solid green;
+      background-color: #ffffff;
+      padding: 5px;
+      font-size: 13px;
+    }
+    .footer-text {
+      text-align: center;
+      font-size: 13px;
+      margin-top: 15px;
+      font-weight: bold;
+      color: #1e3a8a;
+    }

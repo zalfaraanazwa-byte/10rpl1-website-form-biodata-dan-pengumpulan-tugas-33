@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabel 1 - Tantangan Tabel Kompleks</title>
+    <link rel="stylesheet" href="tabel-biodata.css">
+  <style>
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Tantangan Tabel Kompleks =&gt; Merge (Merah) &amp; Split (Hijau)</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Kategori Utama</th>
+        <th>Sub Kategori</th>
+        <th>Atribut Isian</th>
+        <th>Detail Data / Nilai</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <!-- Rowspan 3 untuk DATA SISWA -->
+        <td rowspan="3" class="merged-red">
+          DATA SISWA<br><small style="color:red;">(Rowspan 3)</small>
+        </td>
+        <td rowspan="2">Identitas Utama</td>
+        <td>Nama Lengkap</td>
+        <td>Bagus Java</td>
+      </tr>
+      <tr>
+        <td>Alamat Rumah</td>
+        <td>Malang suantai sayang</td>
+      </tr>
+      <tr>
+        <!-- Colspan 2 untuk Kontak Aktif -->
+        <td colspan="2" class="merged-red-sub">
+          Kontak Aktif: 085735191199 <span style="color:red; font-size:11px;">(Colspan 2)</span>
+        </td>
+        <td>Hobi: Mancing emosi</td>
+      </tr>
+      <tr>
+        <td>Akademik</td>
+        <td>Jurusan PPLG</td>
+        <td>Pilihan Kelas</td>
+        <td>RPL (Rekayasa Perangkat Lunak)</td>
+      </tr>
+      <tr>
+        <td>Preferensi</td>
+        <td>Gender</td>
+        <td>Jenis Kelamin</td>
+        <td>Laki-laki</td>
+      </tr>
+      <tr>
+        <td>Antropometri</td>
+        <td>Pengukuran Fisik</td>
+        <td>Parameter Badan</td>
+        <td>
+          <!-- Simulasi Split Cell dengan Inner Table -->
+          <div class="split-green-container">
+            <div class="split-title">SPLIT CELL (Dipecah jadi 2 sub-sel):</div>
+            <table class="inner-table">
+              <tr>
+                <td><strong>Tinggi Badan:</strong> 178.8 cm</td>
+              </tr>
+              <tr>
+                <td><strong>Berat Badan:</strong> 65.60 kg</td>
+              </tr>
+            </table>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="footer-text">
+    <strong>Keterangan:</strong> Kotak bergaris <strong>Merah</strong> adalah hasil <strong>**Merge Cell**</strong>, sedangkan kotak bergaris <strong>Hijau</strong> adalah simulasi <strong>**Split Cell**</strong>.
+  </p>
+</div>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabel 2 - Data Biodata Siswa PPLG</title>
+  <style>
+    
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Data Biodata Siswa PPLG</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Field / Atribut</th>
+        <th>Keterangan / Hasil Input</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="field-col">Nama:</td>
+        <td>Bagus Java</td>
+      </tr>
+      <tr>
+        <td class="field-col">Alamat:</td>
+        <td>Malang suantai sayang</td>
+      </tr>
+      <tr>
+        <td class="field-col">Jurusan:</td>
+        <td>RPL</td>
+      </tr>
+      <tr>
+        <td class="field-col">Jenis Kelamin:</td>
+        <td>Laki-laki</td>
+      </tr>
+      <tr>
+        <td class="field-col">Tinggi Badan (cm):</td>
+        <td>178.8</td>
+      </tr>
+      <tr>
+        <td class="field-col">Berat Badan (kg):</td>
+        <td>65.60</td>
+      </tr>
+      <tr>
+        <td class="field-col">Hobi:</td>
+        <td>Mancing emosi</td>
+      </tr>
+      <tr>
+        <td class="field-col">No. HP:</td>
+        <td>085735191199</td>
+      </tr>
+      <tr>
+        <td colspan="2" class="status-row">
+          Status: Data berhasil divalidasi dan direkap ke dalam tabel
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="footer-link">Marge &amp; Split</div>
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabel 3 - Marge & Split</title>
+  <style>
+    
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Marge &amp; Split</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Kategori Data</th>
+        <th>Atribut Form</th>
+        <th>Hasil Isian Siswa</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <!-- Merged 3 Baris -->
+        <td rowspan="3" class="merged-red">
+          IDENTITAS PRIBADI<br>
+          <small>(Merged 3 Baris)</small>
+        </td>
+        <td>Nama:</td>
+        <td>Bagus Java</td>
+      </tr>
+      <tr>
+        <td>Alamat:</td>
+        <td>Malang suantai sayang</td>
+      </tr>
+      <tr>
+        <td>No. HP:</td>
+        <td>085735191199</td>
+      </tr>
+      <tr>
+        <td>Akademik</td>
+        <td>Jurusan:</td>
+        <td>RPL</td>
+      </tr>
+      <tr>
+        <td>Preferensi</td>
+        <td>Jenis Kelamin:</td>
+        <td>Laki-laki</td>
+      </tr>
+      <tr>
+        <td>Data Fisik</td>
+        <td>Pengukuran Badan:</td>
+        <td>
+          <!-- Split Cell menggunakan Sub-Table -->
+          <div class="split-green-container">
+            <div class="split-title">SPLIT CELL (Dipecah):</div>
+            <table class="inner-table">
+              <tr>
+                <td><strong>Tinggi:</strong> 178.8 cm</td>
+              </tr>
+              <tr>
+                <td><strong>Berat:</strong> 65.60 kg</td>
+              </tr>
+            </table>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Lain-lain</td>
+        <td>Hobi:</td>
+        <td>Mancing emosi</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="footer-text">
+    Garis Merah = Area Merge Cell | Garis Hijau = Area Split Cell
+  </p>
+</div>
+
+</body>
+</html>
