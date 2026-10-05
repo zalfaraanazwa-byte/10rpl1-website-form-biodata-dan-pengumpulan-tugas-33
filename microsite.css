@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* Background Gradasi Ungu Soft Estetik */
+    background: linear-gradient(135deg, #2e0854, #481380, #19002e);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Container Utama Microsite / Kartu */
+.card-container {
+    width: 100%;
+    max-width: 420px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 24px;
+    padding: 30px 24px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Header Sub-Bar & Jam */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #d1b3ff;
+    margin-bottom: 20px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+/* Area Foto Profil  */
+.avatar-wrapper {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 18px auto;
+}
+
+.avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #b388ff;
+    box-shadow: 0 0 20px rgba(179, 136, 255, 0.5);
+    background-color: #2b1055;
+}
+
+/* Detail Judul & Deskripsi */
+.title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 6px;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.subtitle {
+    font-size: 13px;
+    color: #e0c3fc;
+    margin-bottom: 24px;
+}
+
+/* Daftar Menu / Tombol Link */
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.btn-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 14px 20px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+.btn-link:hover {
+    background: linear-gradient(90deg, #8a2be2, #b388ff);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(138, 43, 226, 0.4);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.btn-link .icon {
+    font-size: 18px;
+    margin-right: 14px;
+    display: flex;
+    align-items: center;
+}
+
+/* Footer Keterangan */
+.footer {
+    margin-top: 25px;
+    font-size: 11px;
+    color: #a78bfa;
+}
